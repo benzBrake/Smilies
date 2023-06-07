@@ -453,7 +453,7 @@ $(function(){
 
 		$options = Helper::options();
 		//允许图片标签
-		$options->commentsHTMLTagAllowed .= '<img src="" alt="" style=""/>';
+		$options->commentsHTMLTagAllowed .= '<img class="" src="" alt="" style=""/>';
 		$archive = $widget instanceof Widget_Archive;
 
 		if ($widget instanceof Widget_Abstract_Comments || $archive && $options->plugin('Smilies')->postmode) {
